@@ -38,21 +38,8 @@ It combines voice input, smart reminders, and an intuitive interface to make tas
 * **SpeechRecognizer API**
 
 ---
-
-## 📸 Screenshots
-<br>
-
-<div align="center">
-
-<img src="https://github.com/user-attachments/assets/6ab2c82b-b94b-49bf-a95c-2ce1008edc27" width="250"/>
-<img src="https://github.com/user-attachments/assets/12115bdf-28ee-411e-84da-cf03536d284d" width="250"/>
-<img src="https://github.com/user-attachments/assets/59acb2fb-cd50-4564-9956-031a331b682f" width="250"/>
-
-<br/>
-<img src="https://github.com/user-attachments/assets/08712196-3638-4d17-aeea-67e359163797" width="250"/>
-<img src="https://github.com/user-attachments/assets/2e0fb02a-a976-44e9-93ef-a69b63462044" width="250"/>
-
-</div>
+## Install app:
+👉 **https://drive.google.com/file/d/13PfqxM2hT9KbAnoHdZPXEK27qa_uCyfK/view?usp=sharing**
 ---
 
 ## 💻 GitHub Repository
