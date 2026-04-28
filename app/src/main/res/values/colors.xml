@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ── Brand ──────────────────────────────────────────── -->
+    <color name="accent">#14B8A6</color>
+    <color name="accent_dark">#0D9488</color>
+    <color name="accent_light">#5EEAD4</color>
+
+    <!-- ── Dark backgrounds ───────────────────────────────── -->
+    <color name="bg_primary">#0F172A</color>
+    <color name="bg_secondary">#1E293B</color>
+    <color name="bg_card">#1E293B</color>
+    <color name="bg_input">#253347</color>
+
+    <!-- ── Text ────────────────────────────────────────────── -->
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_hint">#64748B</color>
+
+    <!-- ── Priority ────────────────────────────────────────── -->
+    <color name="priority_high">#EF4444</color>
+    <color name="priority_medium">#F59E0B</color>
+    <color name="priority_low">#22C55E</color>
+
+    <!-- ── Status ──────────────────────────────────────────── -->
+    <color name="overdue">#EF4444</color>
+    <color name="completed">#64748B</color>
+    <color name="success">#22C55E</color>
+
+    <!-- ── Swipe ────────────────────────────────────────────── -->
+    <color name="swipe_complete_bg">#166534</color>
+    <color name="swipe_delete_bg">#7F1D1D</color>
+
+    <!-- ── Dividers / borders ──────────────────────────────── -->
+    <color name="divider">#2D3F56</color>
+    <color name="border">#334155</color>
+
+    <!-- ── Chips ────────────────────────────────────────────── -->
+    <color name="chip_background">#1A3340</color>
+    <color name="chip_text">#14B8A6</color>
+
+    <!-- ── Notification tint ────────────────────────────────── -->
+    <color name="notif_tint">#14B8A6</color>
+
+    <!-- ── Navigation ───────────────────────────────────────── -->
+    <color name="nav_bg">#1E293B</color>
+    <color name="nav_indicator">#1F3A3A</color>
+
+    <!-- MaterialComponents defaults (required) -->
+    <color name="colorPrimary">#14B8A6</color>
+    <color name="colorPrimaryVariant">#0D9488</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#14B8A6</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSurface">#1E293B</color>
+    <color name="colorOnSurface">#F1F5F9</color>
+    <color name="colorBackground">#0F172A</color>
+    <color name="colorOnBackground">#F1F5F9</color>
+    <color name="colorError">#EF4444</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taskie</string>
+    <string name="tagline">Think less, act faster.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_voice">Voice</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="empty_state_title">Nothing here yet.</string>
+    <string name="empty_state_subtitle">Tap the + button to add your first task, or use the voice assistant.</string>
+    <string name="section_today">Today</string>
+    <string name="section_upcoming">Upcoming</string>
+    <string name="section_overdue">Overdue</string>
+    <string name="section_completed">Recently Completed</string>
+    <string name="task_completed_toast">Task completed!</string>
+    <string name="task_deleted_toast">Task deleted</string>
+    <string name="undo">UNDO</string>
+
+    <!-- Add/Edit Task -->
+    <string name="add_task_title">New Task</string>
+    <string name="edit_task_title">Edit Task</string>
+    <string name="hint_task_title">What needs to be done?</string>
+    <string name="hint_description">Add a note (optional)</string>
+    <string name="label_due_date">Due date &amp; time</string>
+    <string name="label_reminder">Reminder</string>
+    <string name="label_priority">Priority</string>
+    <string name="label_tags">Tags</string>
+    <string name="btn_save">Save Task</string>
+    <string name="tap_to_set_date">Tap to set date &amp; time</string>
+    <string name="tap_to_set_reminder">Tap to set reminder</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="error_title_required">Title is required</string>
+
+    <!-- Voice -->
+    <string name="voice_idle">Tap the mic to create a task with your voice</string>
+    <string name="voice_listening">Listening…</string>
+    <string name="voice_parsing">Parsing intent…</string>
+    <string name="voice_confirm_prompt">Does this look right?</string>
+    <string name="voice_success">Task added!</string>
+    <string name="voice_error">Could not hear you. Tap to retry.</string>
+    <string name="btn_confirm">Add Task</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="hint_try_saying">Try saying: "Call John tomorrow at 6 PM"</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="pref_voice_title">Voice Assistant</string>
+    <string name="pref_voice_summary">Enable tap-to-speak task creation</string>
+    <string name="pref_wake_phrase_title">Wake phrase (UI only)</string>
+    <string name="pref_notifications_title">Notifications</string>
+    <string name="pref_daily_summary_title">Daily summary (8 AM)</string>
+    <string name="pref_smart_reminders_title">Smart reminders</string>
+    <string name="pref_smart_reminders_summary">Auto-adjust reminder timing based on your patterns</string>
+    <string name="btn_clear_completed">Clear completed tasks</string>
+    <string name="btn_reset_all">Reset all data</string>
+    <string name="dialog_clear_title">Clear completed tasks?</string>
+    <string name="dialog_reset_title">Reset all data?</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Analytics</string>
+    <string name="streak_label">day streak</string>
+    <string name="label_weekly_completed">Completed</string>
+    <string name="label_weekly_active">Active Today</string>
+    <string name="label_completion_rate">Completion Rate</string>
+    <string name="insights_title">Your patterns</string>
+    <string name="no_insights">Complete more tasks to unlock insights.</string>
+
+    <!-- Notifications -->
+    <string name="notif_reminder_title">Task Reminder</string>
+    <string name="notif_overdue_title">Missed task</string>
+    <string name="notif_summary_title">Good morning!</string>
+    <string name="notif_action_done">Done</string>
+    <string name="notif_action_snooze">Snooze 30m</string>
+    <string name="notif_action_reschedule">Reschedule</string>
+</resources>

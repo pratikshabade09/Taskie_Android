@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Taskie" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent_dark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/colorOnPrimary</item>
+        <item name="android:colorBackground">@color/bg_primary</item>
+        <item name="colorSurface">@color/bg_secondary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorError">@color/overdue</item>
+
+        <!-- Window -->
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/nav_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Typography -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+        <!-- EditText -->
+        <item name="editTextStyle">@style/Widget.Taskie.EditText</item>
+
+        <!-- Bottom navigation -->
+        <item name="bottomNavigationStyle">@style/Widget.Taskie.BottomNavigation</item>
+
+        <!-- Card -->
+        <item name="materialCardViewStyle">@style/Widget.Taskie.Card</item>
+
+        <!-- Snackbar -->
+        <item name="snackbarStyle">@style/Widget.Taskie.Snackbar</item>
+
+        <!-- FAB -->
+        <item name="floatingActionButtonStyle">@style/Widget.Taskie.FAB</item>
+    </style>
+
+    <!-- Splash theme (no flicker) -->
+    <style name="Theme.Taskie.Splash" parent="Theme.Taskie">
+        <item name="android:windowBackground">@color/bg_primary</item>
+    </style>
+
+    <!-- Dialog overlay -->
+    <style name="Theme.Taskie.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSurface">@color/bg_secondary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+
+    <!-- Widget: EditText -->
+    <style name="Widget.Taskie.EditText" parent="Widget.Design.TextInputEditText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:background">@drawable/bg_input_field</item>
+    </style>
+
+    <!-- Widget: BottomNavigation -->
+    <style name="Widget.Taskie.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/nav_bg</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.Taskie.NavIndicator</item>
+    </style>
+
+    <style name="Widget.Taskie.NavIndicator" parent="">
+        <item name="android:color">@color/nav_indicator</item>
+    </style>
+
+    <!-- Widget: Card -->
+    <style name="Widget.Taskie.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/border</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+
+    <!-- Widget: FAB -->
+    <style name="Widget.Taskie.FAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="tint">@color/colorOnPrimary</item>
+    </style>
+
+    <!-- Widget: Snackbar -->
+    <style name="Widget.Taskie.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/bg_secondary</item>
+    </style>
+
+</resources>
